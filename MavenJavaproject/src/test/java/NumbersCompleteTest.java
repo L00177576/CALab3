@@ -54,4 +54,9 @@ public class NumbersCompleteTest extends TestCase{
 		assert(o instanceof Integer);
 		assert(o.equals(4));
 	}
+	
+	 public void testAlwaysTrue()
+	    {
+	        assertTrue( true );
+	    }
 }
