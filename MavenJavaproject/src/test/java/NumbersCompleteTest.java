@@ -59,4 +59,18 @@ public class NumbersCompleteTest extends TestCase{
 	    {
 	        assertTrue( true );
 	    }
+	 
+		public void testSubGreaterthanfive() {
+			int num1 = 10;
+			int num2 = 4;
+		 
+			assertTrue(  NumbersComplete.subtract(num1,num2) > 5); 
+		}
+		public void testSumGreaterthanten() {
+			int num1 = 10;
+			int num2 = 4;
+		 
+			assertTrue(  NumbersComplete.sum(num1,num2) > 10); 
+		}
+		
 }
